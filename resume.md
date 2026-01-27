@@ -153,13 +153,6 @@ Ruby gem ensuring Sidekiq jobs are never lost due to worker crashes or restarts.
 
 🔗 [GitHub Repository](https://github.com/praja/sidekiq-assured-jobs) | 💎 [RubyGems](https://rubygems.org/gems/sidekiq-assured-jobs)
 
-### NestJS i18n Socket.io Example
-**2024** | TypeScript, NestJS, Socket.io
-
-Example project demonstrating internationalization (i18n) configuration with Socket.io gateways in NestJS applications. Published as educational resource for the NestJS community.
-
-🔗 [GitHub Repository](https://github.com/ItsManikantaGopi/nestjs-i18n-socket-io-example)
-
 ---
 
 ## Education
