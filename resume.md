@@ -146,26 +146,19 @@ Software Engineer II with **5+ years of experience** specializing in building sc
 
 ## Notable Open-Source Projects
 
+### Sidekiq Assured Jobs
+**2025** | Ruby Gem
+
+Ruby gem ensuring Sidekiq jobs are never lost due to worker crashes or restarts. Tracks in-flight jobs and automatically recovers orphaned work, providing reliability over deployments. Published on RubyGems with 600+ downloads.
+
+🔗 [GitHub Repository](https://github.com/praja/sidekiq-assured-jobs) | 💎 [RubyGems](https://rubygems.org/gems/sidekiq-assured-jobs)
+
 ### NestJS i18n Socket.io Example
 **2024** | TypeScript, NestJS, Socket.io
 
 Example project demonstrating internationalization (i18n) configuration with Socket.io gateways in NestJS applications. Published as educational resource for the NestJS community.
 
 🔗 [GitHub Repository](https://github.com/ItsManikantaGopi/nestjs-i18n-socket-io-example)
-
-### Pomotimer - Flutter App
-**2024** | Dart, Flutter
-
-Cross-platform Pomodoro timer application built with Flutter, demonstrating state management and native mobile development capabilities.
-
-🔗 [GitHub Repository](https://github.com/ItsManikantaGopi/pomotimer)
-
-### MRC2PNG Converter
-**2021** | Python
-
-Python module for converting MRC (Medical Research Council) files to PNG format, useful in scientific image processing and microscopy applications.
-
-🔗 [GitHub Repository](https://github.com/ItsManikantaGopi/MRC2PNG)
 
 ---
 
