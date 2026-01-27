@@ -3,10 +3,10 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="Manikanta Gopi - Backend & DevOps Engineer with expertise in Go, Ruby, Python, Kubernetes, and AWS/Azure cloud infrastructure">
-    <meta name="keywords" content="Backend Engineer, DevOps, Kubernetes, AWS, Azure, Go, Ruby, Python, Docker">
+    <meta name="description" content="Manikanta Gopi - Software Engineer II specializing in cloud architecture, real-time systems, and DevOps with 5+ years of experience">
+    <meta name="keywords" content="Software Engineer, DevOps, Kubernetes, AWS, GCP, Azure, Ruby on Rails, NestJS, Python, Real-time Systems">
     <meta name="author" content="Manikanta Gopi">
-    <title>Manikanta Gopi - Backend & DevOps Engineer</title>
+    <title>Manikanta Gopi - Software Engineer II</title>
     <style>
         /* Reset and Base Styles */
         * {
@@ -175,22 +175,20 @@
             left: 0;
         }
 
-        /* Projects */
-        .project {
-            margin-bottom: 20px;
-            padding: 15px;
-            background: #f8f9fa;
-            border-radius: 6px;
+        /* Education */
+        .education-item {
+            margin-bottom: 15px;
         }
 
-        .project h3 {
+        .education-item h3 {
             color: #2c3e50;
             font-size: 1.2em;
-            margin-bottom: 8px;
+            margin-bottom: 5px;
         }
 
-        .project p {
-            color: #555;
+        .education-item .institution {
+            color: #7f8c8d;
+            font-style: italic;
         }
 
         /* Print Styles */
@@ -253,11 +251,13 @@
     <div class="container">
         <header>
             <h1>Manikanta Gopi</h1>
-            <div class="title">Backend & DevOps Engineer</div>
+            <div class="title">Software Engineer II | Cloud Architecture & DevOps Specialist</div>
             <div class="contact-info">
-                <span>✉️ gopimanikanta50@gmail.com</span>
+                <span>✉️ manikantagopiw@gmail.com</span>
                 <span>|</span>
                 <a href="https://github.com/ItsManikantaGopi" target="_blank">🔗 GitHub: ItsManikantaGopi</a>
+                <span>|</span>
+                <a href="https://linkedin.com/in/manikanta-gopi-549163190" target="_blank">💼 LinkedIn</a>
                 <span>|</span>
                 <span>📍 India (IST)</span>
             </div>
@@ -267,70 +267,96 @@
             <section id="summary">
                 <h2>Professional Summary</h2>
                 <p>
-                    Experienced Backend & DevOps Engineer with a proven track record of designing and maintaining high-scale, 
-                    production-grade systems. Expertise in microservices architecture, cloud infrastructure (AWS/Azure), 
-                    and containerization technologies. Strong GitHub presence with 1,934+ commits and 1,636+ pull requests, 
-                    demonstrating consistent delivery and code quality. Specialized in building scalable notification systems, 
-                    managing Kubernetes clusters, and implementing robust CI/CD pipelines.
+                    Software Engineer II with <strong>5+ years of experience</strong> specializing in building scalable systems 
+                    that handle high-volume traffic while optimizing for performance and reliability. Expert in multi-cloud 
+                    architecture (AWS, GCP, Azure), real-time messaging systems, and DevOps practices. Proven track record 
+                    of reducing API response times by 200ms, building systems supporting 10,000+ concurrent users, and 
+                    implementing robust CI/CD pipelines that reduced deployment time by 60%. Strong foundation in machine 
+                    learning with PyTorch and experience across the full development lifecycle.
                 </p>
             </section>
 
             <section id="experience">
-                <h2>Work Experience</h2>
+                <h2>Professional Experience</h2>
 
                 <div class="job">
-                    <h3>Backend & DevOps Engineer</h3>
-                    <div class="company-period">Praja | 2023 - Present</div>
+                    <h3>Software Engineer II</h3>
+                    <div class="company-period">Circleapp Online Services | April 2025 - Present</div>
 
-                    <h4>Garuda - Notification Service (Go-based Microservice)</h4>
+                    <h4>Advanced System Architecture & Performance</h4>
                     <ul>
-                        <li>Architected and maintained high-scale notification delivery system using Go, handling millions of push notifications</li>
-                        <li>Implemented Firebase Cloud Messaging (FCM) integration with advanced user segmentation (state/district targeting)</li>
-                        <li>Designed comprehensive analytics logging system for notification tracking and performance monitoring</li>
-                        <li>Deployed on multi-cloud infrastructure (AWS & Azure) with Docker containerization for maximum reliability</li>
-                        <li>Set up GitHub Actions CI/CD pipelines for automated testing and deployment across environments</li>
-                        <li>Managed Redis Sentinel for high-availability caching and session management</li>
-                        <li>Implemented worker queues using Sidekiq for efficient background job processing</li>
+                        <li>Managing production Kubernetes clusters across multiple environments with disaster recovery mechanisms</li>
+                        <li>Led optimization initiatives reducing API response times by 200ms through strategic CDN integration and gzip compression</li>
+                        <li>Architecting microservices for PrajaApp social media platform handling high-volume traffic</li>
+                        <li>Building infrastructure-as-code solutions with Terraform for reproducible deployments</li>
                     </ul>
 
-                    <h4>Infrastructure & DevOps</h4>
+                    <h4>Multi-Cloud Strategy & Observability</h4>
                     <ul>
-                        <li>Managed production and pre-production Kubernetes clusters (fleet-infra) serving high-traffic applications</li>
-                        <li>Created and maintained Helm charts for multiple services (ror-api, sidekiq, background-removal)</li>
-                        <li>Implemented multi-environment deployment strategy (production, preprod, pp1, pp2) for safe releases</li>
-                        <li>Configured CloudFront CDN, AWS ECS, and Azure Container Registry for optimized content delivery</li>
-                        <li>Managed infrastructure as code using Terraform for reproducible, version-controlled deployments</li>
-                        <li>Optimized resource allocation and implemented auto-scaling policies for cost efficiency</li>
-                        <li>Deployed GPU-accelerated workloads for background removal service, improving processing speed by 3x</li>
-                    </ul>
-
-                    <h4>Backend Development (Ruby on Rails)</h4>
-                    <ul>
-                        <li>Developed RESTful API endpoints and optimized complex database queries for improved performance</li>
-                        <li>Integrated Mixpanel analytics for user behavior tracking and data-driven decision making</li>
-                        <li>Built user website data synchronization features with real-time updates</li>
-                        <li>Refactored API host logic for better scalability and maintainability</li>
-                        <li>Implemented video poster generation and real-time image processing pipelines</li>
-                        <li>Wrote comprehensive test suites ensuring 90%+ code coverage</li>
-                    </ul>
-
-                    <h4>Node.js Microservices</h4>
-                    <ul>
-                        <li>Developed and maintained background removal service integrations with third-party APIs</li>
-                        <li>Managed environment-specific configurations across development, staging, and production</li>
-                        <li>Implemented production-grade error handling, logging, and monitoring solutions</li>
+                        <li>Implementing hybrid cloud solutions across AWS, GCP, and Azure for optimal cost and performance</li>
+                        <li>Setting up comprehensive monitoring with Grafana, Prometheus, and New Relic for proactive issue detection</li>
+                        <li>Implementing security best practices and compliance measures across infrastructure</li>
                     </ul>
                 </div>
 
                 <div class="job">
-                    <h3>Backend Developer</h3>
-                    <div class="company-period">Sira-01 | 2024</div>
+                    <h3>Software Engineer</h3>
+                    <div class="company-period">Circleapp Online Services | May 2022 - March 2025</div>
+
+                    <h4>Real-time Messaging System</h4>
                     <ul>
-                        <li>Designed and implemented Django REST API backend with comprehensive documentation</li>
-                        <li>Created Docker containerization setup for seamless local and production environments</li>
-                        <li>Set up MySQL and Redis using Docker Compose for efficient development workflow</li>
-                        <li>Wrote detailed development setup documentation for onboarding new team members</li>
-                        <li>Implemented secure login authentication system with JWT tokens</li>
+                        <li>Built production-grade real-time messaging server from scratch using WebSockets and Socket.io</li>
+                        <li>Implemented high-throughput message handling with Redis pub/sub for horizontal scaling</li>
+                        <li>Designed message persistence layer with MongoDB for reliability</li>
+                        <li>Achieved sub-100ms message delivery latency for thousands of concurrent users</li>
+                    </ul>
+
+                    <h4>DevOps & CI/CD Excellence</h4>
+                    <ul>
+                        <li>Established and maintained CI/CD pipelines for PrajaApp using GitOps methodologies</li>
+                        <li>Dockerized 15+ microservices for consistent deployment across environments</li>
+                        <li>Implemented Kubernetes deployments with auto-scaling and health checks</li>
+                        <li>Set up disaster recovery procedures with regular backup automation</li>
+                        <li>Reduced deployment time by 60% through automated CI/CD pipelines</li>
+                    </ul>
+
+                    <h4>Backend API Development</h4>
+                    <ul>
+                        <li>Developed RESTful APIs using NestJS and Ruby on Rails serving millions of requests daily</li>
+                        <li>Created analytical APIs for tracking user activity and engagement metrics</li>
+                        <li>Built AWS Lambda functions for serverless video processing and thumbnail generation</li>
+                        <li>Implemented caching strategies with Redis reducing database load by 40%</li>
+                    </ul>
+
+                    <h4>Mobile Development</h4>
+                    <ul>
+                        <li>Contributed to Flutter mobile applications with cross-platform consistency</li>
+                        <li>Integrated mobile apps with backend services via REST APIs and WebSocket connections</li>
+                        <li>Implemented offline-first architecture for improved user experience</li>
+                    </ul>
+                </div>
+
+                <div class="job">
+                    <h3>Software Developer Intern</h3>
+                    <div class="company-period">Circleapp Online Services | 2021 - 2022</div>
+                    <ul>
+                        <li>Developed revenue-generating features contributing to platform monetization</li>
+                        <li>Fixed critical bugs and improved application stability</li>
+                        <li>Built RESTful APIs for core social media features using Ruby on Rails</li>
+                        <li>Collaborated with senior engineers on architectural decisions</li>
+                        <li>Participated in code reviews and adopted best practices</li>
+                    </ul>
+                </div>
+
+                <div class="job">
+                    <h3>Machine Learning Intern</h3>
+                    <div class="company-period">Continual Engine | 2020 - 2021</div>
+                    <ul>
+                        <li>Built image-to-text conversion models using PyTorch deep learning framework</li>
+                        <li>Implemented autoencoders for image feature extraction and compression</li>
+                        <li>Trained neural networks on large datasets with GPU acceleration</li>
+                        <li>Optimized model performance and inference speed</li>
+                        <li>Documented research findings and model architectures</li>
                     </ul>
                 </div>
             </section>
@@ -339,13 +365,32 @@
                 <h2>Technical Skills</h2>
                 <div class="skills-grid">
                     <div class="skill-category">
-                        <h3>Languages</h3>
+                        <h3>Programming Languages</h3>
                         <ul>
-                            <li>Go (Golang) - Microservices, Concurrent Programming</li>
-                            <li>Ruby - Rails Framework, API Development</li>
-                            <li>Python - Django, Data Processing, Scientific Computing</li>
-                            <li>JavaScript/Node.js - Backend Services</li>
-                            <li>Terraform/HCL - Infrastructure as Code</li>
+                            <li>Ruby - Rails backend, API design, Sidekiq</li>
+                            <li>Python - AWS Lambda, ML models, automation</li>
+                            <li>TypeScript/JavaScript - NestJS, Node.js</li>
+                            <li>Dart - Flutter mobile development</li>
+                            <li>Bash - DevOps automation, scripting</li>
+                        </ul>
+                    </div>
+
+                    <div class="skill-category">
+                        <h3>Backend Frameworks</h3>
+                        <ul>
+                            <li>Ruby on Rails - RESTful APIs, MVC</li>
+                            <li>NestJS - Microservices, TypeORM</li>
+                            <li>Node.js & Express.js</li>
+                            <li>Socket.io - Real-time communication</li>
+                        </ul>
+                    </div>
+
+                    <div class="skill-category">
+                        <h3>Cloud Platforms</h3>
+                        <ul>
+                            <li>AWS - Lambda, EC2, S3, RDS, CloudFront, ECS/EKS</li>
+                            <li>Google Cloud Platform - Compute Engine, Cloud Functions</li>
+                            <li>Microsoft Azure - VMs, Storage, Functions</li>
                         </ul>
                     </div>
 
@@ -353,97 +398,110 @@
                         <h3>DevOps & Infrastructure</h3>
                         <ul>
                             <li>Docker & Docker Compose</li>
-                            <li>Kubernetes & Helm Charts</li>
-                            <li>GitHub Actions CI/CD</li>
-                            <li>AWS: ECS, ECR, CloudFront, Route53</li>
-                            <li>Azure: Container Registry, Container Instances</li>
-                            <li>Terraform for Infrastructure Provisioning</li>
-                            <li>FluxCD for GitOps Deployments</li>
+                            <li>Kubernetes - Deployments, Services, Ingress</li>
+                            <li>Terraform - Infrastructure as Code</li>
+                            <li>GitHub Actions & GitLab CI</li>
+                            <li>GitOps - ArgoCD, FluxCD</li>
                         </ul>
                     </div>
 
                     <div class="skill-category">
-                        <h3>Databases & Caching</h3>
+                        <h3>Databases</h3>
                         <ul>
-                            <li>MySQL - Query Optimization, Indexing</li>
-                            <li>Redis & Redis Sentinel</li>
-                            <li>Database Design & Migration</li>
-                            <li>Performance Tuning</li>
+                            <li>PostgreSQL - Primary relational database</li>
+                            <li>MongoDB - Document storage, messaging</li>
+                            <li>MySQL - Legacy systems</li>
+                            <li>Redis - Caching, pub/sub, rate limiting</li>
                         </ul>
                     </div>
 
                     <div class="skill-category">
-                        <h3>Tools & Technologies</h3>
+                        <h3>Monitoring & Observability</h3>
                         <ul>
-                            <li>Git & GitHub (1,934+ commits, 1,636+ PRs)</li>
-                            <li>Sidekiq - Background Job Processing</li>
-                            <li>Firebase Cloud Messaging (FCM)</li>
-                            <li>Mixpanel Analytics</li>
-                            <li>NGINX/Load Balancing</li>
-                            <li>Horizontal & Vertical Scaling</li>
+                            <li>Grafana - Dashboards, alerting</li>
+                            <li>Prometheus - Metrics collection</li>
+                            <li>New Relic - APM, distributed tracing</li>
+                            <li>ELK Stack - Centralized logging</li>
                         </ul>
                     </div>
 
                     <div class="skill-category">
-                        <h3>Cloud Platforms</h3>
+                        <h3>AI/ML & Data Science</h3>
                         <ul>
-                            <li>Amazon Web Services (AWS)</li>
-                            <li>Microsoft Azure</li>
-                            <li>Multi-cloud Deployment Strategies</li>
-                            <li>Cloud Cost Optimization</li>
+                            <li>PyTorch - Deep learning models</li>
+                            <li>TensorFlow - Neural networks</li>
+                            <li>NumPy & Pandas - Data analysis</li>
+                        </ul>
+                    </div>
+
+                    <div class="skill-category">
+                        <h3>Mobile Development</h3>
+                        <ul>
+                            <li>Flutter - Cross-platform apps</li>
+                            <li>State management (Provider, BLoC)</li>
+                            <li>WebSocket integration</li>
+                            <li>Offline-first architecture</li>
                         </ul>
                     </div>
                 </div>
             </section>
 
             <section id="achievements">
-                <h2>Notable Achievements</h2>
+                <h2>Key Achievements & Impact</h2>
                 <ul class="achievement-list">
-                    <li><strong>High-Scale System Design:</strong> Successfully managed infrastructure upgrades for Pongal 2026 event, handling 10x+ traffic increase through strategic capacity planning and auto-scaling implementation</li>
-                    <li><strong>Multi-Environment Architecture:</strong> Designed and implemented pp1/pp2 pre-production environments, enabling better testing isolation and reducing production incidents by 40%</li>
-                    <li><strong>Performance Optimization:</strong> Optimized poster page APIs and background removal service with GPU acceleration, reducing response times from 5s to 1.5s</li>
-                    <li><strong>Infrastructure Cost Optimization:</strong> Reduced background removal service costs by 35% through efficient resource allocation and caching strategies</li>
-                    <li><strong>CI/CD Excellence:</strong> Created comprehensive deployment pipelines for AWS and Azure, reducing deployment time from hours to minutes</li>
-                    <li><strong>Open Source Contributions:</strong> Active contributor with 1,934+ commits across multiple repositories, demonstrating consistent code quality and collaborative development</li>
+                    <li><strong>Performance Optimization:</strong> Reduced API response times by 200ms through CDN integration, gzip compression, and caching strategies</li>
+                    <li><strong>High-Scale Systems:</strong> Built real-time messaging infrastructure supporting 10,000+ concurrent users with sub-100ms latency</li>
+                    <li><strong>CI/CD Efficiency:</strong> Reduced deployment time by 60% through automated GitOps pipelines and Kubernetes orchestration</li>
+                    <li><strong>Database Optimization:</strong> Reduced database load by 40% through strategic Redis caching implementation</li>
+                    <li><strong>Reliability:</strong> Achieved 99.9% uptime for critical messaging infrastructure through comprehensive monitoring and disaster recovery</li>
+                    <li><strong>Multi-Cloud Architecture:</strong> Successfully implemented hybrid cloud solutions across AWS, GCP, and Azure for cost optimization</li>
+                    <li><strong>Microservices:</strong> Dockerized and orchestrated 15+ microservices with Kubernetes for PrajaApp social media platform</li>
                 </ul>
             </section>
 
             <section id="projects">
-                <h2>Additional Projects</h2>
+                <h2>Notable Open-Source Projects</h2>
 
-                <div class="project">
-                    <h3>Differential Equation Solvers (Python)</h3>
+                <div class="job">
+                    <h3>NestJS i18n Socket.io Example</h3>
+                    <div class="company-period">2024 | TypeScript, NestJS, Socket.io</div>
                     <p>
-                        Implemented numerical methods for solving complex differential equations. Created educational 
-                        Python toolkit demonstrating strong mathematical and algorithmic skills.
+                        Example project demonstrating internationalization (i18n) configuration with Socket.io gateways 
+                        in NestJS applications. Published as educational resource for the NestJS community.
                     </p>
                 </div>
 
-                <div class="project">
-                    <h3>Decor Infrastructure (Terraform)</h3>
+                <div class="job">
+                    <h3>Pomotimer - Flutter App</h3>
+                    <div class="company-period">2024 | Dart, Flutter</div>
                     <p>
-                        Infrastructure as Code project for automated resource management. Implemented Azure resource 
-                        group provisioning with best practices for security and scalability.
+                        Cross-platform Pomodoro timer application built with Flutter, demonstrating state management 
+                        and native mobile development capabilities.
                     </p>
                 </div>
 
-                <div class="project">
-                    <h3>Personal Portfolio</h3>
+                <div class="job">
+                    <h3>MRC2PNG Converter</h3>
+                    <div class="company-period">2021 | Python</div>
                     <p>
-                        Maintained GitHub profile repository with comprehensive README and hosted professional portfolio 
-                        website at ItsManikantaGopi.github.io.
+                        Python module for converting MRC (Medical Research Council) files to PNG format, useful in 
+                        scientific image processing and microscopy applications.
                     </p>
                 </div>
             </section>
 
             <section id="education">
-                <h2>Education & Continuous Learning</h2>
-                <ul>
-                    <li>Strong background in mathematics and engineering (evident from differential equations project)</li>
-                    <li>Self-taught DevOps and cloud architecture with focus on practical, production-grade solutions</li>
-                    <li>Continuous learner with emphasis on scalable system design and modern development practices</li>
-                    <li>Active participant in open-source community and collaborative development</li>
-                </ul>
+                <h2>Education</h2>
+                <div class="education-item">
+                    <h3>B.Tech in Computer Science</h3>
+                    <div class="institution">Rajiv Gandhi University of Knowledge Technologies (RGUKT) | 2022</div>
+                    <p><strong>GPA:</strong> 9.3/10.0</p>
+                </div>
+                <div class="education-item">
+                    <h3>Pre-University Course (MPC - Mathematics, Physics, Chemistry)</h3>
+                    <div class="institution">RGUKT | 2018</div>
+                    <p><strong>GPA:</strong> 8.4/10.0</p>
+                </div>
             </section>
         </main>
     </div>
