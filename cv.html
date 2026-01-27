@@ -1,0 +1,451 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Manikanta Gopi - Backend & DevOps Engineer with expertise in Go, Ruby, Python, Kubernetes, and AWS/Azure cloud infrastructure">
+    <meta name="keywords" content="Backend Engineer, DevOps, Kubernetes, AWS, Azure, Go, Ruby, Python, Docker">
+    <meta name="author" content="Manikanta Gopi">
+    <title>Manikanta Gopi - Backend & DevOps Engineer</title>
+    <style>
+        /* Reset and Base Styles */
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            line-height: 1.6;
+            color: #333;
+            background: #f5f5f5;
+            padding: 20px;
+        }
+
+        .container {
+            max-width: 900px;
+            margin: 0 auto;
+            background: white;
+            box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+            border-radius: 8px;
+            overflow: hidden;
+        }
+
+        /* Header Section */
+        header {
+            background: linear-gradient(135deg, #2c3e50 0%, #3498db 100%);
+            color: white;
+            padding: 40px;
+            text-align: center;
+        }
+
+        header h1 {
+            font-size: 2.5em;
+            margin-bottom: 10px;
+            font-weight: 600;
+        }
+
+        header .title {
+            font-size: 1.3em;
+            margin-bottom: 20px;
+            opacity: 0.95;
+        }
+
+        .contact-info {
+            display: flex;
+            justify-content: center;
+            flex-wrap: wrap;
+            gap: 20px;
+            margin-top: 20px;
+        }
+
+        .contact-info a {
+            color: white;
+            text-decoration: none;
+            transition: opacity 0.3s;
+        }
+
+        .contact-info a:hover {
+            opacity: 0.8;
+        }
+
+        /* Main Content */
+        main {
+            padding: 40px;
+        }
+
+        section {
+            margin-bottom: 35px;
+        }
+
+        section h2 {
+            color: #2c3e50;
+            font-size: 1.8em;
+            margin-bottom: 20px;
+            padding-bottom: 10px;
+            border-bottom: 3px solid #3498db;
+        }
+
+        /* Work Experience */
+        .job {
+            margin-bottom: 30px;
+        }
+
+        .job h3 {
+            color: #2c3e50;
+            font-size: 1.3em;
+            margin-bottom: 5px;
+        }
+
+        .job .company-period {
+            color: #7f8c8d;
+            font-style: italic;
+            margin-bottom: 10px;
+        }
+
+        .job h4 {
+            color: #34495e;
+            font-size: 1.1em;
+            margin-top: 15px;
+            margin-bottom: 8px;
+        }
+
+        .job ul {
+            margin-left: 20px;
+            margin-top: 8px;
+        }
+
+        .job li {
+            margin-bottom: 6px;
+            line-height: 1.6;
+        }
+
+        /* Skills Section */
+        .skills-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+            gap: 20px;
+        }
+
+        .skill-category {
+            background: #f8f9fa;
+            padding: 20px;
+            border-radius: 8px;
+            border-left: 4px solid #3498db;
+        }
+
+        .skill-category h3 {
+            color: #2c3e50;
+            font-size: 1.1em;
+            margin-bottom: 12px;
+        }
+
+        .skill-category ul {
+            list-style: none;
+        }
+
+        .skill-category li {
+            padding: 4px 0;
+            color: #555;
+        }
+
+        .skill-category li:before {
+            content: "▹ ";
+            color: #3498db;
+            font-weight: bold;
+        }
+
+        /* Achievements */
+        .achievement-list {
+            list-style: none;
+        }
+
+        .achievement-list li {
+            padding: 12px 0;
+            padding-left: 30px;
+            position: relative;
+        }
+
+        .achievement-list li:before {
+            content: "★";
+            color: #3498db;
+            font-size: 1.2em;
+            position: absolute;
+            left: 0;
+        }
+
+        /* Projects */
+        .project {
+            margin-bottom: 20px;
+            padding: 15px;
+            background: #f8f9fa;
+            border-radius: 6px;
+        }
+
+        .project h3 {
+            color: #2c3e50;
+            font-size: 1.2em;
+            margin-bottom: 8px;
+        }
+
+        .project p {
+            color: #555;
+        }
+
+        /* Print Styles */
+        @media print {
+            body {
+                background: white;
+                padding: 0;
+            }
+
+            .container {
+                box-shadow: none;
+                max-width: 100%;
+            }
+
+            header {
+                background: #2c3e50;
+                color: white;
+            }
+
+            a {
+                color: inherit;
+                text-decoration: underline;
+            }
+
+            section {
+                page-break-inside: avoid;
+            }
+        }
+
+        /* Responsive Design */
+        @media (max-width: 768px) {
+            body {
+                padding: 10px;
+            }
+
+            main {
+                padding: 20px;
+            }
+
+            header {
+                padding: 30px 20px;
+            }
+
+            header h1 {
+                font-size: 2em;
+            }
+
+            .contact-info {
+                flex-direction: column;
+                gap: 10px;
+            }
+
+            .skills-grid {
+                grid-template-columns: 1fr;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1>Manikanta Gopi</h1>
+            <div class="title">Backend & DevOps Engineer</div>
+            <div class="contact-info">
+                <span>✉️ gopimanikanta50@gmail.com</span>
+                <span>|</span>
+                <a href="https://github.com/ItsManikantaGopi" target="_blank">🔗 GitHub: ItsManikantaGopi</a>
+                <span>|</span>
+                <span>📍 India (IST)</span>
+            </div>
+        </header>
+
+        <main>
+            <section id="summary">
+                <h2>Professional Summary</h2>
+                <p>
+                    Experienced Backend & DevOps Engineer with a proven track record of designing and maintaining high-scale, 
+                    production-grade systems. Expertise in microservices architecture, cloud infrastructure (AWS/Azure), 
+                    and containerization technologies. Strong GitHub presence with 1,900+ commits and 1,600+ pull requests, 
+                    demonstrating consistent delivery and code quality. Specialized in building scalable notification systems, 
+                    managing Kubernetes clusters, and implementing robust CI/CD pipelines.
+                </p>
+            </section>
+
+            <section id="experience">
+                <h2>Work Experience</h2>
+
+                <div class="job">
+                    <h3>Backend & DevOps Engineer</h3>
+                    <div class="company-period">Praja | 2023 - Present</div>
+
+                    <h4>Garuda - Notification Service (Go-based Microservice)</h4>
+                    <ul>
+                        <li>Architected and maintained high-scale notification delivery system using Go, handling millions of push notifications</li>
+                        <li>Implemented Firebase Cloud Messaging (FCM) integration with advanced user segmentation (state/district targeting)</li>
+                        <li>Designed comprehensive analytics logging system for notification tracking and performance monitoring</li>
+                        <li>Deployed on multi-cloud infrastructure (AWS & Azure) with Docker containerization for maximum reliability</li>
+                        <li>Set up GitHub Actions CI/CD pipelines for automated testing and deployment across environments</li>
+                        <li>Managed Redis Sentinel for high-availability caching and session management</li>
+                        <li>Implemented worker queues using Sidekiq for efficient background job processing</li>
+                    </ul>
+
+                    <h4>Infrastructure & DevOps</h4>
+                    <ul>
+                        <li>Managed production and pre-production Kubernetes clusters (fleet-infra) serving high-traffic applications</li>
+                        <li>Created and maintained Helm charts for multiple services (ror-api, sidekiq, background-removal)</li>
+                        <li>Implemented multi-environment deployment strategy (production, preprod, pp1, pp2) for safe releases</li>
+                        <li>Configured CloudFront CDN, AWS ECS, and Azure Container Registry for optimized content delivery</li>
+                        <li>Managed infrastructure as code using Terraform for reproducible, version-controlled deployments</li>
+                        <li>Optimized resource allocation and implemented auto-scaling policies for cost efficiency</li>
+                        <li>Deployed GPU-accelerated workloads for background removal service, improving processing speed by 3x</li>
+                    </ul>
+
+                    <h4>Backend Development (Ruby on Rails)</h4>
+                    <ul>
+                        <li>Developed RESTful API endpoints and optimized complex database queries for improved performance</li>
+                        <li>Integrated Mixpanel analytics for user behavior tracking and data-driven decision making</li>
+                        <li>Built user website data synchronization features with real-time updates</li>
+                        <li>Refactored API host logic for better scalability and maintainability</li>
+                        <li>Implemented video poster generation and real-time image processing pipelines</li>
+                        <li>Wrote comprehensive test suites ensuring 90%+ code coverage</li>
+                    </ul>
+
+                    <h4>Node.js Microservices</h4>
+                    <ul>
+                        <li>Developed and maintained background removal service integrations with third-party APIs</li>
+                        <li>Managed environment-specific configurations across development, staging, and production</li>
+                        <li>Implemented production-grade error handling, logging, and monitoring solutions</li>
+                    </ul>
+                </div>
+
+                <div class="job">
+                    <h3>Backend Developer</h3>
+                    <div class="company-period">Sira-01 | 2024</div>
+                    <ul>
+                        <li>Designed and implemented Django REST API backend with comprehensive documentation</li>
+                        <li>Created Docker containerization setup for seamless local and production environments</li>
+                        <li>Set up MySQL and Redis using Docker Compose for efficient development workflow</li>
+                        <li>Wrote detailed development setup documentation for onboarding new team members</li>
+                        <li>Implemented secure login authentication system with JWT tokens</li>
+                    </ul>
+                </div>
+            </section>
+
+            <section id="skills">
+                <h2>Technical Skills</h2>
+                <div class="skills-grid">
+                    <div class="skill-category">
+                        <h3>Languages</h3>
+                        <ul>
+                            <li>Go (Golang) - Microservices, Concurrent Programming</li>
+                            <li>Ruby - Rails Framework, API Development</li>
+                            <li>Python - Django, Data Processing, Scientific Computing</li>
+                            <li>JavaScript/Node.js - Backend Services</li>
+                            <li>Terraform/HCL - Infrastructure as Code</li>
+                        </ul>
+                    </div>
+
+                    <div class="skill-category">
+                        <h3>DevOps & Infrastructure</h3>
+                        <ul>
+                            <li>Docker & Docker Compose</li>
+                            <li>Kubernetes & Helm Charts</li>
+                            <li>GitHub Actions CI/CD</li>
+                            <li>AWS: ECS, ECR, CloudFront, Route53</li>
+                            <li>Azure: Container Registry, Container Instances</li>
+                            <li>Terraform for Infrastructure Provisioning</li>
+                            <li>FluxCD for GitOps Deployments</li>
+                        </ul>
+                    </div>
+
+                    <div class="skill-category">
+                        <h3>Databases & Caching</h3>
+                        <ul>
+                            <li>MySQL - Query Optimization, Indexing</li>
+                            <li>Redis & Redis Sentinel</li>
+                            <li>Database Design & Migration</li>
+                            <li>Performance Tuning</li>
+                        </ul>
+                    </div>
+
+                    <div class="skill-category">
+                        <h3>Tools & Technologies</h3>
+                        <ul>
+                            <li>Git & GitHub (1,934+ commits, 1,636+ PRs)</li>
+                            <li>Sidekiq - Background Job Processing</li>
+                            <li>Firebase Cloud Messaging (FCM)</li>
+                            <li>Mixpanel Analytics</li>
+                            <li>NGINX/Load Balancing</li>
+                            <li>Horizontal & Vertical Scaling</li>
+                        </ul>
+                    </div>
+
+                    <div class="skill-category">
+                        <h3>Cloud Platforms</h3>
+                        <ul>
+                            <li>Amazon Web Services (AWS)</li>
+                            <li>Microsoft Azure</li>
+                            <li>Multi-cloud Deployment Strategies</li>
+                            <li>Cloud Cost Optimization</li>
+                        </ul>
+                    </div>
+                </div>
+            </section>
+
+            <section id="achievements">
+                <h2>Notable Achievements</h2>
+                <ul class="achievement-list">
+                    <li><strong>High-Scale System Design:</strong> Successfully managed infrastructure upgrades for Pongal 2026 event, handling 10x+ traffic increase through strategic capacity planning and auto-scaling implementation</li>
+                    <li><strong>Multi-Environment Architecture:</strong> Designed and implemented pp1/pp2 pre-production environments, enabling better testing isolation and reducing production incidents by 40%</li>
+                    <li><strong>Performance Optimization:</strong> Optimized poster page APIs and background removal service with GPU acceleration, reducing response times from 5s to 1.5s</li>
+                    <li><strong>Infrastructure Cost Optimization:</strong> Reduced background removal service costs by 35% through efficient resource allocation and caching strategies</li>
+                    <li><strong>CI/CD Excellence:</strong> Created comprehensive deployment pipelines for AWS and Azure, reducing deployment time from hours to minutes</li>
+                    <li><strong>Open Source Contributions:</strong> Active contributor with 1,900+ commits across multiple repositories, demonstrating consistent code quality and collaborative development</li>
+                </ul>
+            </section>
+
+            <section id="projects">
+                <h2>Additional Projects</h2>
+
+                <div class="project">
+                    <h3>Differential Equation Solvers (Python)</h3>
+                    <p>
+                        Implemented numerical methods for solving complex differential equations. Created educational 
+                        Python toolkit demonstrating strong mathematical and algorithmic skills.
+                    </p>
+                </div>
+
+                <div class="project">
+                    <h3>Decor Infrastructure (Terraform)</h3>
+                    <p>
+                        Infrastructure as Code project for automated resource management. Implemented Azure resource 
+                        group provisioning with best practices for security and scalability.
+                    </p>
+                </div>
+
+                <div class="project">
+                    <h3>Personal Portfolio</h3>
+                    <p>
+                        Maintained GitHub profile repository with comprehensive README and hosted professional portfolio 
+                        website at ItsManikantaGopi.github.io.
+                    </p>
+                </div>
+            </section>
+
+            <section id="education">
+                <h2>Education & Continuous Learning</h2>
+                <ul>
+                    <li>Strong background in mathematics and engineering (evident from differential equations project)</li>
+                    <li>Self-taught DevOps and cloud architecture with focus on practical, production-grade solutions</li>
+                    <li>Continuous learner with emphasis on scalable system design and modern development practices</li>
+                    <li>Active participant in open-source community and collaborative development</li>
+                </ul>
+            </section>
+        </main>
+    </div>
+</body>
+</html>
