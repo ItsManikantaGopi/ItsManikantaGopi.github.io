@@ -9,8 +9,8 @@ Welcome to my professional portfolio! I'm an experienced Backend & DevOps Engine
 With expertise in **Go**, **Ruby**, **Python**, and cloud infrastructure (**AWS/Azure**), I design and maintain microservices architectures that serve millions of users. My work spans from building notification systems handling high-volume push notifications to managing Kubernetes clusters and implementing robust CI/CD pipelines.
 
 **GitHub Stats:**
-- 🔨 **1,900+ commits** across multiple repositories
-- 🔀 **1,600+ pull requests** merged
+- 🔨 **1,934+ commits** across multiple repositories
+- 🔀 **1,636+ pull requests** merged
 - ☁️ Multi-cloud deployment experience (AWS & Azure)
 - 🐳 Extensive containerization & orchestration expertise
 

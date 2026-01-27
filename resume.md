@@ -7,7 +7,7 @@
 
 ## Professional Summary
 
-Experienced Backend & DevOps Engineer with a proven track record of designing and maintaining high-scale, production-grade systems. Expertise in microservices architecture, cloud infrastructure (AWS/Azure), and containerization technologies. Strong GitHub presence with **1,900+ commits** and **1,600+ pull requests**, demonstrating consistent delivery and code quality. Specialized in building scalable notification systems, managing Kubernetes clusters, and implementing robust CI/CD pipelines.
+Experienced Backend & DevOps Engineer with a proven track record of designing and maintaining high-scale, production-grade systems. Expertise in microservices architecture, cloud infrastructure (AWS/Azure), and containerization technologies. Strong GitHub presence with **1,934+ commits** and **1,636+ pull requests**, demonstrating consistent delivery and code quality. Specialized in building scalable notification systems, managing Kubernetes clusters, and implementing robust CI/CD pipelines.
 
 ---
 
@@ -110,7 +110,7 @@ Experienced Backend & DevOps Engineer with a proven track record of designing an
 
 ⭐ **CI/CD Excellence:** Created comprehensive deployment pipelines for AWS and Azure, reducing deployment time from hours to minutes
 
-⭐ **Open Source Contributions:** Active contributor with 1,900+ commits across multiple repositories, demonstrating consistent code quality and collaborative development
+⭐ **Open Source Contributions:** Active contributor with 1,934+ commits across multiple repositories, demonstrating consistent code quality and collaborative development
 
 ---
 
