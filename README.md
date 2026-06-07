@@ -11,8 +11,8 @@ Expert in **multi-cloud architecture** (AWS, GCP, Azure), **real-time messaging 
 **Professional Highlights:**
 - 🔨 **1,934+ commits** across multiple repositories
 - 🔀 **1,636+ pull requests** merged
-- ⚡ Reduced API response times by **200ms** through CDN optimization
-- 🚀 Built real-time messaging supporting **10,000+ concurrent users**
+- ⚡ Optimized cloud costs and reduced Lambda service bills significantly
+- 🚀 Built real-time messaging supporting **20,000+ concurrent users**
 - 📦 Dockerized **15+ microservices** with Kubernetes orchestration
 - 🎯 Achieved **99.9% uptime** for critical infrastructure
 
@@ -35,11 +35,11 @@ Expert in **multi-cloud architecture** (AWS, GCP, Azure), **real-time messaging 
 
 ### 🏆 Key Achievements
 
-✨ Reduced API response times by 200ms through strategic optimizations  
-✨ Built messaging infrastructure with sub-100ms latency for 10K+ users  
-✨ Reduced deployment time by 60% with automated CI/CD pipelines  
-✨ Implemented multi-cloud architecture across AWS, GCP, and Azure  
-✨ Reduced database load by 40% through Redis caching strategies  
+✨ **Cost Optimizations:** Moved logs to self-hosted service reducing $1k+ monthly bill, and optimized video processing reducing Lambda bill by 80%.  
+✨ **Performance:** Reduced API response times by 200ms through strategic optimizations.  
+✨ **High-Scale:** Built messaging infrastructure with sub-100ms latency for 20K+ users.  
+✨ **Efficiency:** Reduced deployment time by 60% with GitOps and Kubernetes orchestration.  
+✨ **Reliability:** Achieved 99.9% uptime and reduced database load by 40% via Redis caching.  
 
 ### 💻 Professional Experience
 
@@ -57,7 +57,7 @@ Image-to-text models, PyTorch, Autoencoders
 
 ### 📫 Contact
 
-- **Email:** manikantagopiw@gmail.com
+- **Email:** gopimanikanta50@gmail.com
 - **GitHub:** [@ItsManikantaGopi](https://github.com/ItsManikantaGopi)
 - **LinkedIn:** [Manikanta Gopi](https://linkedin.com/in/manikanta-gopi-549163190)
 - **Location:** India (IST)

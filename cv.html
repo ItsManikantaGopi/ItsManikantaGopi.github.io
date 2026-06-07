@@ -6,9 +6,8 @@
     <meta name="description" content="Manikanta Gopi - Software Engineer II specializing in cloud architecture, real-time systems, and DevOps with 5+ years of experience">
     <meta name="keywords" content="Software Engineer, DevOps, Kubernetes, AWS, GCP, Azure, Ruby on Rails, NestJS, Python, Real-time Systems">
     <meta name="author" content="Manikanta Gopi">
-    <title>Manikanta Gopi - Software Engineer II</title>
+    <title>Manikanta Gopi - Resume</title>
     <style>
-        /* Reset and Base Styles */
         * {
             margin: 0;
             padding: 0;
@@ -16,292 +15,184 @@
         }
 
         body {
-            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-            line-height: 1.6;
-            color: #e0e0e0;
-            background: #0d1117;
-            padding: 20px;
+            font-family: 'Georgia', 'Times New Roman', serif;
+            font-size: 14px;
+            line-height: 1.5;
+            color: #222;
+            background: #f5f5f5;
+            padding: 30px 20px;
         }
 
         .container {
-            max-width: 900px;
+            max-width: 800px;
             margin: 0 auto;
-            background: #161b22;
-            box-shadow: 0 0 30px rgba(0, 0, 0, 0.5);
-            border-radius: 12px;
-            overflow: hidden;
-            border: 1px solid #30363d;
+            background: #fff;
+            padding: 40px 48px;
+            box-shadow: 0 1px 4px rgba(0,0,0,0.12);
         }
 
-        /* Header Section */
+        /* Header */
         header {
-            background: linear-gradient(135deg, #1a1f2e 0%, #2d4263 100%);
-            color: #ffffff;
-            padding: 30px;
             text-align: center;
-            border-bottom: 2px solid #3498db;
+            margin-bottom: 20px;
+            border-bottom: 2px solid #222;
+            padding-bottom: 14px;
         }
 
         header h1 {
-            font-size: 2.2em;
-            margin-bottom: 8px;
-            font-weight: 600;
-            color: #58a6ff;
+            font-size: 2em;
+            font-weight: 700;
+            letter-spacing: 1px;
+            margin-bottom: 4px;
         }
 
         header .title {
-            font-size: 1.1em;
-            margin-bottom: 15px;
-            opacity: 0.95;
-            color: #c9d1d9;
+            font-size: 1em;
+            color: #444;
+            margin-bottom: 8px;
         }
 
         .contact-info {
+            font-size: 0.88em;
+            color: #333;
             display: flex;
             justify-content: center;
             flex-wrap: wrap;
-            gap: 15px;
-            margin-top: 15px;
+            gap: 6px 16px;
         }
 
         .contact-info a {
-            color: #58a6ff;
+            color: #1a5276;
             text-decoration: none;
-            transition: color 0.3s;
         }
 
         .contact-info a:hover {
-            color: #79c0ff;
+            text-decoration: underline;
         }
 
-        .contact-info span {
-            color: #c9d1d9;
-        }
-
-        /* Main Content */
-        main {
-            padding: 30px;
-            background: #161b22;
-        }
-
+        /* Sections */
         section {
-            margin-bottom: 25px;
+            margin-bottom: 18px;
         }
 
         section h2 {
-            color: #58a6ff;
-            font-size: 1.5em;
-            margin-bottom: 15px;
-            padding-bottom: 8px;
-            border-bottom: 2px solid #3498db;
+            font-size: 0.95em;
+            font-weight: 700;
+            text-transform: uppercase;
+            letter-spacing: 1.5px;
+            border-bottom: 1px solid #999;
+            padding-bottom: 3px;
+            margin-bottom: 10px;
+            color: #111;
         }
 
         section p {
-            color: #c9d1d9;
-            line-height: 1.6;
+            color: #333;
+            font-size: 0.93em;
         }
 
-        section strong {
-            color: #79c0ff;
-        }
-
-        /* Work Experience */
+        /* Experience */
         .job {
-            margin-bottom: 20px;
+            margin-bottom: 14px;
+        }
+
+        .job-header {
+            display: flex;
+            justify-content: space-between;
+            align-items: baseline;
+            margin-bottom: 1px;
         }
 
         .job h3 {
-            color: #79c0ff;
-            font-size: 1.15em;
-            margin-bottom: 4px;
+            font-size: 0.97em;
+            font-weight: 700;
+            color: #111;
         }
 
-        .job h3 a {
-            color: #79c0ff;
-            text-decoration: none;
+        .job .period {
+            font-size: 0.87em;
+            color: #555;
+            white-space: nowrap;
         }
 
-        .job h3 a:hover {
-            color: #58a6ff;
-        }
-
-        .job .company-period {
-            color: #8b949e;
+        .job .company {
+            font-size: 0.9em;
+            color: #444;
             font-style: italic;
-            margin-bottom: 8px;
-            font-size: 0.95em;
-        }
-
-        .job .company-period a {
-            color: #8b949e;
-            text-decoration: none;
-        }
-
-        .job .company-period a:hover {
-            color: #58a6ff;
-        }
-
-        .job h4 {
-            color: #c9d1d9;
-            font-size: 1.05em;
-            margin-top: 12px;
-            margin-bottom: 6px;
+            margin-bottom: 5px;
         }
 
         .job ul {
-            margin-left: 20px;
-            margin-top: 6px;
+            margin-left: 18px;
         }
 
         .job li {
-            margin-bottom: 4px;
-            line-height: 1.5;
-            color: #c9d1d9;
+            margin-bottom: 3px;
+            font-size: 0.92em;
+            color: #333;
         }
 
         .job p {
-            color: #c9d1d9;
+            font-size: 0.92em;
+            color: #333;
         }
 
-        /* Skills Section */
-        .skills-grid {
-            display: grid;
-            grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
-            gap: 15px;
+        /* Skills */
+        .skills-table {
+            width: 100%;
+            border-collapse: collapse;
+            font-size: 0.92em;
         }
 
-        .skill-category {
-            background: #0d1117;
-            padding: 15px;
-            border-radius: 6px;
-            border-left: 3px solid #3498db;
-            border: 1px solid #30363d;
+        .skills-table td {
+            padding: 3px 8px 3px 0;
+            vertical-align: top;
+            color: #333;
         }
 
-        .skill-category h3 {
-            color: #58a6ff;
-            font-size: 1.05em;
-            margin-bottom: 10px;
-        }
-
-        .skill-category ul {
-            list-style: none;
-        }
-
-        .skill-category li {
-            padding: 3px 0;
-            color: #c9d1d9;
-            font-size: 0.95em;
-        }
-
-        .skill-category li:before {
-            content: "▹ ";
-            color: #58a6ff;
-            font-weight: bold;
-        }
-
-        /* Achievements */
-        .achievement-list {
-            list-style: none;
-        }
-
-        .achievement-list li {
-            padding: 10px 0;
-            padding-left: 25px;
-            position: relative;
-            color: #c9d1d9;
-        }
-
-        .achievement-list li:before {
-            content: "★";
-            color: #58a6ff;
-            font-size: 1.1em;
-            position: absolute;
-            left: 0;
-        }
-
-        .achievement-list li strong {
-            color: #79c0ff;
+        .skills-table td:first-child {
+            font-weight: 700;
+            width: 30%;
+            color: #111;
+            white-space: nowrap;
         }
 
         /* Education */
         .education-item {
-            margin-bottom: 12px;
+            display: flex;
+            justify-content: space-between;
+            align-items: baseline;
+            margin-bottom: 6px;
         }
 
-        .education-item h3 {
-            color: #79c0ff;
-            font-size: 1.1em;
-            margin-bottom: 4px;
-        }
-
-        .education-item .institution {
-            color: #8b949e;
-            font-style: italic;
+        .education-item .degree {
+            font-weight: 700;
             font-size: 0.95em;
         }
 
-        .education-item p {
-            color: #c9d1d9;
-        }
-
-        .education-item strong {
-            color: #58a6ff;
-        }
-
         .education-item .institution {
-            color: #8b949e;
-            font-style: italic;
+            font-size: 0.9em;
+            color: #444;
         }
 
-        /* Print Styles */
+        .education-item .edu-right {
+            text-align: right;
+            font-size: 0.87em;
+            color: #555;
+            white-space: nowrap;
+            margin-left: 12px;
+        }
+
+        /* Print */
         @media print {
             body {
-                background: white;
+                background: #fff;
                 padding: 0;
-                color: #000;
             }
 
             .container {
                 box-shadow: none;
-                max-width: 100%;
-                background: white;
-                border: none;
-            }
-
-            header {
-                background: #2c3e50 !important;
-                color: white !important;
-            }
-
-            main {
-                background: white;
-            }
-
-            section h2 {
-                color: #2c3e50 !important;
-            }
-
-            .job h3, .education-item h3 {
-                color: #2c3e50 !important;
-            }
-
-            .job li, .achievement-list li, .education-item p {
-                color: #000 !important;
-            }
-
-            .skill-category {
-                background: #f8f9fa !important;
-                border: 1px solid #ddd !important;
-            }
-
-            .skill-category h3, .skill-category li {
-                color: #000 !important;
-            }
-
-            a {
-                color: #2c3e50 !important;
-                text-decoration: underline;
+                padding: 30px 36px;
             }
 
             section {
@@ -309,31 +200,22 @@
             }
         }
 
-        /* Responsive Design */
-        @media (max-width: 768px) {
-            body {
-                padding: 10px;
+        @media (max-width: 600px) {
+            .container {
+                padding: 24px 18px;
             }
 
-            main {
-                padding: 20px;
-            }
-
-            header {
-                padding: 30px 20px;
-            }
-
-            header h1 {
-                font-size: 2em;
-            }
-
-            .contact-info {
+            .job-header {
                 flex-direction: column;
-                gap: 10px;
             }
 
-            .skills-grid {
-                grid-template-columns: 1fr;
+            .education-item {
+                flex-direction: column;
+            }
+
+            .education-item .edu-right {
+                text-align: left;
+                margin-left: 0;
             }
         }
     </style>
@@ -342,118 +224,142 @@
     <div class="container">
         <header>
             <h1>Manikanta Gopi</h1>
-            <div class="title">Software Engineer II | Cloud Architecture & DevOps Specialist</div>
+            <div class="title">Software Engineer II</div>
             <div class="contact-info">
-                <span>✉️ manikantagopiw@gmail.com</span>
+                <span>gopimanikanta50@gmail.com</span>
                 <span>|</span>
-                <a href="https://github.com/ItsManikantaGopi" target="_blank">🔗 GitHub: ItsManikantaGopi</a>
+                <a href="https://github.com/ItsManikantaGopi" target="_blank" aria-label="GitHub profile (opens in new tab)">github.com/ItsManikantaGopi</a>
                 <span>|</span>
-                <a href="https://linkedin.com/in/manikanta-gopi-549163190" target="_blank">💼 LinkedIn</a>
+                <a href="https://linkedin.com/in/manikanta-gopi-549163190" target="_blank" aria-label="LinkedIn profile (opens in new tab)">linkedin.com/in/manikanta-gopi-549163190</a>
                 <span>|</span>
-                <span>📍 India (IST)</span>
+                <span>India (IST)</span>
             </div>
         </header>
 
-        <main>
-            <section id="summary">
-                <h2>Professional Summary</h2>
-                <p>
-                    Software Engineer II with <strong>5+ years</strong> building scalable, high-traffic systems. Expert in multi-cloud architecture (AWS, GCP, Azure), real-time messaging, and DevOps. Reduced API times by 200ms, built systems for 10K+ concurrent users, cut deployment time by 60%.
-                </p>
-            </section>
+        <section id="summary">
+            <h2>Summary</h2>
+            <p>
+                Software Engineer II with 5+ years of experience building scalable systems that handle high-volume traffic while optimizing for performance and reliability. Expert in multi-cloud architecture (AWS, GCP, Azure), real-time messaging systems, and DevOps practices. Proven track record of optimizing cloud costs, building systems supporting 10,000+ concurrent users, and implementing robust CI/CD pipelines that reduced deployment time by 60%. Strong foundation in microservices designing and maintenance.
+            </p>
+        </section>
 
-            <section id="experience">
-                <h2>Professional Experience</h2>
+        <section id="experience">
+            <h2>Experience</h2>
 
-                <div class="job">
+            <div class="job">
+                <div class="job-header">
                     <h3>Software Engineer II</h3>
-                    <div class="company-period">Circleapp Online Services | April 2025 - Present</div>
-                    <ul>
-                        <li>Managing production Kubernetes clusters with disaster recovery across multiple environments</li>
-                        <li>Reduced API response times by 200ms through CDN integration and gzip compression</li>
-                        <li>Architecting microservices for PrajaApp platform; implementing IaC with Terraform</li>
-                        <li>Hybrid cloud solutions (AWS, GCP, Azure); comprehensive monitoring (Grafana, Prometheus, New Relic)</li>
-                    </ul>
+                    <span class="period">April 2025 – Present</span>
                 </div>
+                <div class="company">Circleapp Online Services</div>
+                <ul>
+                    <li>Managing company Infrastructure and cloud services as a sole responsible person.</li>
+                    <li>Managing production Kubernetes cluster across multiple environments with disaster recovery mechanisms.</li>
+                    <li>Deploying self hosted services to avoid unwanted billing from cloud services like loki for logs.</li>
+                    <li>Optimizing costs related to cloud services, by observing patterns of usage.</li>
+                    <li>Architecting microservices for PrajaApp social media platform handling high-volume traffic.</li>
+                    <li>Building infrastructure-as-code solutions with Terraform for reproducible deployments.</li>
+                    <li>Implementing hybrid cloud solutions across AWS, GCP, and Azure for optimal cost and performance.</li>
+                </ul>
+            </div>
 
-                <div class="job">
+            <div class="job">
+                <div class="job-header">
                     <h3>Software Engineer</h3>
-                    <div class="company-period">Circleapp Online Services | May 2022 - March 2025</div>
-                    <ul>
-                        <li>Built real-time messaging server (WebSockets, Socket.io, Redis pub/sub, MongoDB) with sub-100ms latency</li>
-                        <li>Dockerized 15+ microservices; established CI/CD pipelines using GitOps, reducing deployment time 60%</li>
-                        <li>Developed RESTful APIs (NestJS, Rails) serving millions of requests; AWS Lambda for video processing</li>
-                        <li>Implemented Redis caching reducing database load by 40%; integrated Flutter mobile apps</li>
-                    </ul>
+                    <span class="period">May 2022 – March 2025</span>
                 </div>
+                <div class="company">Circleapp Online Services</div>
+                <ul>
+                    <li>Built production real-time messaging server from scratch using WebSockets, Socket.io, Redis pub/sub, and MongoDB; achieved sub-100ms delivery latency for 20,000+ concurrent users.</li>
+                    <li>Dockerized 15+ microservices and established GitOps-based CI/CD pipelines, reducing deployment time by 60%.</li>
+                    <li>Developed RESTful APIs with NestJS and Ruby on Rails serving millions of daily requests; built serverless video processing pipelines on AWS Lambda.</li>
+                    <li>Implemented Redis caching layer that reduced database load by 40%; integrated Flutter mobile apps via REST and WebSocket.</li>
+                </ul>
+            </div>
 
-                <div class="job">
+            <div class="job">
+                <div class="job-header">
                     <h3>Software Developer Intern</h3>
-                    <div class="company-period">Circleapp Online Services | 2021 - 2022</div>
-                    <ul>
-                        <li>Developed revenue features and core social media APIs using Ruby on Rails</li>
-                        <li>Fixed critical bugs; participated in code reviews and architectural decisions</li>
-                    </ul>
+                    <span class="period">2021 – 2022</span>
                 </div>
+                <div class="company">Circleapp Online Services</div>
+                <ul>
+                    <li>Built revenue-generating features and core social media APIs using Ruby on Rails.</li>
+                    <li>Resolved critical bugs and participated in code reviews and architectural discussions.</li>
+                </ul>
+            </div>
 
-                <div class="job">
+            <div class="job">
+                <div class="job-header">
                     <h3>Machine Learning Intern</h3>
-                    <div class="company-period">Continual Engine | 2020 - 2021</div>
-                    <ul>
-                        <li>Built image-to-text conversion models using PyTorch; implemented autoencoders for feature extraction</li>
-                        <li>Trained neural networks on large datasets with GPU acceleration</li>
-                    </ul>
+                    <span class="period">2020 – 2021</span>
                 </div>
-            </section>
+                <div class="company">Continual Engine</div>
+                <ul>
+                    <li>Built image-to-text conversion models using PyTorch; implemented autoencoders for feature extraction.</li>
+                    <li>Trained deep neural networks on large datasets with GPU acceleration.</li>
+                </ul>
+            </div>
+        </section>
 
-            <section id="skills">
-                <h2>Technical Skills</h2>
-                <div class="skills-grid">
-                    <div class="skill-category">
-                        <h3>Languages & Frameworks</h3>
-                        <ul>
-                            <li>Ruby (Rails), Python, TypeScript/JavaScript (NestJS, Node.js)</li>
-                            <li>Dart (Flutter), Bash, Socket.io</li>
-                        </ul>
-                    </div>
+        <section id="skills">
+            <h2>Technical Skills</h2>
+            <table class="skills-table">
+                <tr>
+                    <td>Languages</td>
+                    <td>Ruby, Python, TypeScript, JavaScript, Dart</td>
+                </tr>
+                <tr>
+                    <td>Backend</td>
+                    <td>Ruby on Rails, NestJS, Node.js, Express.js, Socket.io, BullMq</td>
+                </tr>
+                <tr>
+                    <td>Cloud & DevOps</td>
+                    <td>AWS, GCP, Azure, Docker, Kubernetes, Terraform, GitHub Actions, GitLab CI, FluxCD</td>
+                </tr>
+                <tr>
+                    <td>Databases</td>
+                    <td>MySQL, MongoDB, Redis, OpenSearch</td>
+                </tr>
+                <tr>
+                    <td>Observability</td>
+                    <td>Grafana, Prometheus, New Relic</td>
+                </tr>
+                <tr>
+                    <td>AI / ML</td>
+                    <td>PyTorch, TensorFlow, NumPy, Pandas</td>
+                </tr>
+                <tr>
+                    <td>Mobile</td>
+                    <td>Flutter (iOS & Android), View Model</td>
+                </tr>
+            </table>
+        </section>
 
-                    <div class="skill-category">
-                        <h3>Cloud & DevOps</h3>
-                        <ul>
-                            <li>AWS (Lambda, ECS, CloudFront), GCP, Azure</li>
-                            <li>Docker, Kubernetes, Terraform, GitOps</li>
-                            <li>GitHub Actions, GitLab CI</li>
-                        </ul>
-                    </div>
-
-                    <div class="skill-category">
-                        <h3>Databases & Tools</h3>
-                        <ul>
-                            <li>PostgreSQL, MongoDB, MySQL, Redis</li>
-                            <li>Grafana, Prometheus, New Relic</li>
-                            <li>PyTorch, TensorFlow</li>
-                        </ul>
-                    </div>
+        <section id="projects">
+            <h2>Open-Source</h2>
+            <div class="job">
+                <div class="job-header">
+                    <h3><a href="https://rubygems.org/gems/sidekiq-assured-jobs" target="_blank" aria-label="Sidekiq Assured Jobs on RubyGems (opens in new tab)">Sidekiq Assured Jobs</a></h3>
+                    <span class="period">2025</span>
                 </div>
-            </section>
+                <div class="company">Ruby Gem &mdash; <a href="https://github.com/praja/sidekiq-assured-jobs" target="_blank" aria-label="Sidekiq Assured Jobs GitHub repository (opens in new tab)">GitHub</a> &middot; <a href="https://rubygems.org/gems/sidekiq-assured-jobs" target="_blank" aria-label="Sidekiq Assured Jobs on RubyGems (opens in new tab)">RubyGems</a></div>
+                <p>Ensures Sidekiq background jobs are never lost due to worker crashes or restarts; automatically recovers orphaned work. 600+ downloads on RubyGems.</p>
+            </div>
+        </section>
 
-            <section id="projects">
-                <h2>Open-Source</h2>
-                <div class="job">
-                    <h3><a href="https://rubygems.org/gems/sidekiq-assured-jobs" target="_blank" style="color: #79c0ff; text-decoration: none;">Sidekiq Assured Jobs</a></h3>
-                    <div class="company-period">Ruby Gem | <a href="https://github.com/praja/sidekiq-assured-jobs" target="_blank" style="color: #8b949e;">GitHub</a> | <a href="https://rubygems.org/gems/sidekiq-assured-jobs" target="_blank" style="color: #8b949e;">RubyGems</a></div>
-                    <p>Ensures Sidekiq jobs are never lost due to crashes/restarts. 600+ downloads on RubyGems.</p>
+        <section id="education">
+            <h2>Education</h2>
+            <div class="education-item">
+                <div>
+                    <div class="degree">B.Tech in Computer Science</div>
+                    <div class="institution">Rajiv Gandhi University of Knowledge Technologies (RGUKT)</div>
                 </div>
-            </section>
-
-            <section id="education">
-                <h2>Education</h2>
-                <div class="education-item">
-                    <h3>B.Tech in Computer Science</h3>
-                    <div class="institution">Rajiv Gandhi University of Knowledge Technologies (RGUKT) | 2022 | GPA: 9.3/10.0</div>
+                <div class="edu-right">
+                    2022<br>GPA: 9.3 / 10.0
                 </div>
-            </section>
-        </main>
+            </div>
+        </section>
     </div>
 </body>
 </html>
